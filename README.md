@@ -3,7 +3,7 @@ Web to txt to mobi (Calibre2)
 
 Grabber ebook from loveread.ec and convert to file.mobi 
 
-You can change output format.
+You can change the output format.
 
 python3 ebook1start.py id=332 page=1-80 
 

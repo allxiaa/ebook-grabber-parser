@@ -33,7 +33,7 @@ def start():
     if len(sys.argv) > 2:
         p_arg = sys.argv[2]
         if ("page=" not in p_arg):
-         p_arg = input("Enter page(№-№ of №): ")
+         p_arg = "page=" + input("Enter page(№-№ of №): ")
         # Перевіряємо, чи є діапазон p
         match_p = re.match(r'page=(\d+)-(\d+)', p_arg)
         if match_p:
